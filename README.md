@@ -12,7 +12,8 @@ The bulk of Pipe Dream lives in pipe-dream/core. In addition, each language impl
 | `pipe-dream/<language>-file-factory` | Logic specific to `<language>`   |
 | `pipe-dream/<language>-create` | Package (npm/gem/pip ...)   |
 
-
+### Example
+<img src="https://user-images.githubusercontent.com/3457668/60154801-c1bb5f80-97e8-11e9-9cdc-007b9a51a856.png">
 
 ## Pipe Dream development guide
 Using Laravel as example.
