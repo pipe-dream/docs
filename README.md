@@ -41,7 +41,7 @@ Create a link for this repo as well
 yarn link
 ```
 
-### 2. Setup a host app and the Laravel package:
+### 3. Setup a host app and the Laravel package:
 Create a fresh laravel project to act as host app:
 ```
 laravel new pd-host
