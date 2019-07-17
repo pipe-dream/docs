@@ -3,6 +3,7 @@
 ## Platform overview
 The bulk of Pipe Dream lives in pipe-dream/core. In addition, each language implementation has two repositories - one for logic, and one for package distribution
 
+### Repositories 
 | repo  | summary |
 | ------------- | ------------- |
 | `pipe-dream/core`  | Interfaces, base classes, vue components and more  |
@@ -12,8 +13,10 @@ The bulk of Pipe Dream lives in pipe-dream/core. In addition, each language impl
 | `pipe-dream/<language>-file-factory` | Logic specific to `<language>`   |
 | `pipe-dream/<language>-create` | Package (npm/gem/pip ...)   |
 
-### Example
-<img src="https://user-images.githubusercontent.com/3457668/60154801-c1bb5f80-97e8-11e9-9cdc-007b9a51a856.png">
+### Overview
+<a href="https://www.lucidchart.com/documents/edit/e228254d-6c72-43ba-9bf2-0cd81be2cce6/0?beaconFlowId=CF13F2391D43F2E2">
+    <img src="img/pipe_dream_platform.png">
+</a>
 
 ## Pipe Dream development guide
 Using Laravel as example.
