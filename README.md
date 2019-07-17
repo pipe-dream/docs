@@ -14,7 +14,7 @@ The bulk of Pipe Dream lives in pipe-dream/core. In addition, each language impl
 | `pipe-dream/<language>-create` | Package (npm/gem/pip ...)   |
 
 ### Overview
-<a href="https://www.lucidchart.com/documents/edit/e228254d-6c72-43ba-9bf2-0cd81be2cce6/0?beaconFlowId=CF13F2391D43F2E2">
+<a href="https://www.lucidchart.com/documents/edit/e228254d-6c72-43ba-9bf2-0cd81be2cce6/0?beaconFlowId=CF13F2391D43F2E2" target="_blank">
     <img src="img/pipe_dream_platform.png">
 </a>
 
