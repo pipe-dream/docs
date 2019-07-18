@@ -58,7 +58,7 @@ git clone git@github.com:pipe-dream/laravel-beta.git Laravel
 cd Laravel
 composer install
 yarn link core
-yarn link laravel-factory
+yarn link laravel-file-factory
 yarn
 ```
 Add namespace to `pd-host/composer.json`:
