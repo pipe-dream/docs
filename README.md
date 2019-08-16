@@ -27,7 +27,7 @@ git clone git@github.com:pipe-dream/core.git
 cd core
 yarn
 ```
-Still in the `core`folder, prepare a link (so the other repos can access your local version of `core`)
+Still in the `core` folder, prepare a link (so the other repos can access your local version of `core`)
 ```
 yarn link
 ```
@@ -36,7 +36,7 @@ yarn link
 ```
 git clone git@github.com:pipe-dream/laravel-file-factory.git
 cd laravel-file-factory
-yarn link core
+yarn link @pipe-dream/core
 yarn
 ```
 Create a link for this repo as well
@@ -54,11 +54,11 @@ Add our Laravel package in a dedicated folder:
 ```
 mkdir -p packages/PipeDream
 cd packages/PipeDream
-git clone git@github.com:pipe-dream/laravel-beta.git Laravel
+git clone git@github.com:pipe-dream/laravel-create.git Laravel
 cd Laravel
 composer install
-yarn link core
-yarn link laravel-file-factory
+yarn link @pipe-dream/core
+yarn link @pipe-dream/laravel-file-factory
 yarn
 ```
 Add namespace to `pd-host/composer.json`:
@@ -66,7 +66,7 @@ Add namespace to `pd-host/composer.json`:
 "autoload": {
     "psr-4": {
         "App\\": "app/",
-        "PipeDream\\Laravel\\": "packages/PipeDream/Laravel/src"
+        "PipeDream\\LaravelCreate\\": "packages/PipeDream/Laravel/src"
     },
 ```
 And in the providers array of `pd-host/config/app.php` add:
@@ -74,7 +74,7 @@ And in the providers array of `pd-host/config/app.php` add:
 /*
 * Package Service Providers...
 */
-PipeDream\Laravel\PipeDreamServiceProvider::class,
+PipeDream\LaravelCreate\LaravelCreateServiceProvider::class,
 ```
 
 Finally, you probably want to open up the three repos in three separate editors as well as terminal tabs.
