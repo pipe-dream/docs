@@ -15,7 +15,7 @@ The bulk of Pipe Dream lives in pipe-dream/core. In addition, each language impl
 
 ### Overview
 <a href="https://www.lucidchart.com/documents/edit/e228254d-6c72-43ba-9bf2-0cd81be2cce6/0?beaconFlowId=CF13F2391D43F2E2" target="_blank">
-    <img src="img/pipe_dream_platform.png">
+    <img src="https://user-images.githubusercontent.com/3457668/63221673-b52a0680-c19c-11e9-946e-d0fe8cd85e10.png">
 </a>
 
 ## Pipe Dream development guide
