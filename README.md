@@ -55,7 +55,7 @@ Add our Laravel package in a dedicated folder:
 mkdir -p packages/PipeDream
 cd packages/PipeDream
 git clone git@github.com:pipe-dream/laravel-create.git LaravelCreate
-cd Laravel
+cd LaravelCreate
 composer install
 yarn link core
 yarn link laravel-file-factory
@@ -80,6 +80,6 @@ PipeDream\LaravelCreate\LaravelCreateServiceProvider::class,
 Finally, you probably want to open up the three repos in three separate editors as well as terminal tabs.
 The `core` have no build process, but `laravel-file-factory` and `laravel-create` needs to have `yarn watch` running.
 
-Changes to `core`, `laravel-file-factory` and to the Laravel package itself should now instantly reflect when visiting `pd-host.test/pipe-dream`
+Changes to `core`, `laravel-file-factory` and to the `laravel-create` package itself should now instantly reflect when visiting `pd-host.test/pipe-dream`
 
 Happy coding!
