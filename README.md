@@ -54,7 +54,7 @@ Add our Laravel package in a dedicated folder:
 ```
 mkdir -p packages/PipeDream
 cd packages/PipeDream
-git clone git@github.com:pipe-dream/laravel-beta.git Laravel
+git clone git@github.com:pipe-dream/laravel-create.git LaravelCreate
 cd Laravel
 composer install
 yarn link core
@@ -66,7 +66,7 @@ Add namespace to `pd-host/composer.json`:
 "autoload": {
     "psr-4": {
         "App\\": "app/",
-        "PipeDream\\Laravel\\": "packages/PipeDream/Laravel/src"
+        "PipeDream\\LaravelCreate\\": "packages/PipeDream/LaravelCreate/src"
     },
 ```
 And in the providers array of `pd-host/config/app.php` add:
