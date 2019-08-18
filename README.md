@@ -74,7 +74,7 @@ And in the providers array of `pd-host/config/app.php` add:
 /*
 * Package Service Providers...
 */
-PipeDream\Laravel\PipeDreamServiceProvider::class,
+PipeDream\LaravelCreate\LaravelCreateServiceProvider::class,
 ```
 
 Finally, you probably want to open up the three repos in three separate editors as well as terminal tabs.
