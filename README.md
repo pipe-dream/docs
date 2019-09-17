@@ -36,7 +36,7 @@ yarn link
 ```
 git clone git@github.com:pipe-dream/laravel-file-factory.git
 cd laravel-file-factory
-yarn link core
+yarn link @pipe-dream/core
 yarn
 ```
 Create a link for this repo as well
@@ -57,8 +57,8 @@ cd packages/PipeDream
 git clone git@github.com:pipe-dream/laravel-create.git LaravelCreate
 cd LaravelCreate
 composer install
-yarn link core
-yarn link laravel-file-factory
+yarn link @pipe-dream/core
+yarn link @pipe-dream/laravel-file-factory
 yarn
 ```
 Add namespace to `pd-host/composer.json`:
