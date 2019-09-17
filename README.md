@@ -77,8 +77,13 @@ And in the providers array of `pd-host/config/app.php` add:
 PipeDream\LaravelCreate\LaravelCreateServiceProvider::class,
 ```
 
-Finally, you probably want to open up the three repos in three separate editors as well as terminal tabs.
-The `core` have no build process, but `laravel-file-factory` and `laravel-create` needs to have `yarn watch` running.
+Finally, you probably want to open up the three repos in three separate editors as well as terminal tabs to build it
+
+| repo  | build |
+| ------------- | ------------- |
+| `core`  | `yarn build --watch`  |
+| `laravel-file-factory`  | `yarn watch`  |
+| `laravel-create`  | `yarn watch`  |
 
 Changes to `core`, `laravel-file-factory` and to the `laravel-create` package itself should now instantly reflect when visiting `pd-host.test/pipe-dream`
 
